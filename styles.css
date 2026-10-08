@@ -1,0 +1,459 @@
+/* ==========================================================================
+   LOVE'N'PEOPLE - Modern White Theme Stylesheet
+   ========================================================================== */
+
+:root {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bg-primary: #FFFFFF;
+  --bg-subtle: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+  --border-light: #E2E8F0;
+  --primary-accent: #E11D48; /* Warm Love Rose */
+  --primary-hover: #BE123C;
+  --primary-light: #FFE4E6;
+  --gold-accent: #D97706; /* Hope Gold */
+  --gold-light: #FEF3C7;
+  --brand-navy: #0F172A;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #FAFAFC;
+  color: var(--text-main);
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ==========================================================================
+   Apple-esque Ambient Motion Background (Subtle Peach & Blur Blobs)
+   ========================================================================== */
+.apple-bg-mesh-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -10;
+  background: #FFFFFF;
+}
+
+.apple-bg-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  -webkit-filter: blur(80px);
+  opacity: 0.55;
+  pointer-events: none;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+@media (min-width: 768px) {
+  .apple-bg-blob {
+    filter: blur(120px);
+    -webkit-filter: blur(120px);
+  }
+}
+
+/* /* Blob 1: Warm Subtle Peach (Top Left) */
+.blob-peach-1 {
+  width: min(580px, 85vw);
+  height: min(580px, 85vw);
+  top: -6%;
+  left: 2%;
+  background: radial-gradient(circle, rgba(254, 215, 170, 0.75) 0%, rgba(253, 186, 116, 0.35) 45%, transparent 70%);
+  animation: floatPeach1 22s ease-in-out infinite alternate;
+}
+
+/* Blob 2: Luminous Powder Blue (Top Center / Right) */
+.blob-powder-blue-1 {
+  width: min(620px, 88vw);
+  height: min(620px, 88vw);
+  top: 10%;
+  left: 36%;
+  background: radial-gradient(circle, rgba(186, 230, 253, 0.85) 0%, rgba(224, 242, 254, 0.45) 48%, transparent 72%);
+  animation: floatPowderBlue1 24s ease-in-out infinite alternate;
+}
+
+/* Blob 3: Luminous Soft Peach (Mid Right) */
+.blob-peach-2 {
+  width: min(640px, 90vw);
+  height: min(640px, 90vw);
+  top: 38%;
+  right: -8%;
+  background: radial-gradient(circle, rgba(255, 228, 210, 0.80) 0%, rgba(254, 215, 170, 0.40) 48%, transparent 72%);
+  animation: floatPeach2 28s ease-in-out infinite alternate;
+}
+
+/* Blob 4: Radiant Powder Blue (Mid-Lower Center) */
+.blob-powder-blue-2 {
+  width: min(580px, 82vw);
+  height: min(580px, 82vw);
+  top: 55%;
+  left: 8%;
+  background: radial-gradient(circle, rgba(125, 211, 252, 0.70) 0%, rgba(186, 230, 253, 0.35) 46%, transparent 70%);
+  animation: floatPowderBlue2 29s ease-in-out infinite alternate;
+}
+
+/* Blob 5: Subtle Blush Rose (Upper Right) */
+.blob-rose {
+  width: min(500px, 75vw);
+  height: min(500px, 75vw);
+  top: 15%;
+  right: 12%;
+  background: radial-gradient(circle, rgba(254, 205, 211, 0.65) 0%, rgba(253, 164, 175, 0.25) 50%, transparent 70%);
+  animation: floatRose 24s ease-in-out infinite alternate;
+}
+
+/* Blob 6: Warm Champagne Cream (Lower Left) */
+.blob-soft-cream {
+  width: min(560px, 80vw);
+  height: min(560px, 80vw);
+  bottom: 8%;
+  left: 3%;
+  background: radial-gradient(circle, rgba(254, 240, 138, 0.55) 0%, rgba(253, 230, 138, 0.22) 48%, transparent 72%);
+  animation: floatCream 30s ease-in-out infinite alternate;
+}
+
+/* Blob 7: Soft Powder Blue Sky (Bottom Right) */
+.blob-powder-blue-3 {
+  width: min(550px, 78vw);
+  height: min(550px, 78vw);
+  bottom: 5%;
+  right: 8%;
+  background: radial-gradient(circle, rgba(186, 230, 253, 0.80) 0%, rgba(224, 242, 254, 0.35) 50%, transparent 72%);
+  animation: floatPowderBlue3 26s ease-in-out infinite alternate;
+}
+
+@keyframes floatPeach1 {
+  0% { transform: translate3d(0, 0, 0) scale(1) rotate(0deg); }
+  50% { transform: translate3d(50px, 70px, 0) scale(1.1) rotate(12deg); }
+  100% { transform: translate3d(-35px, 35px, 0) scale(0.94) rotate(-8deg); }
+}
+
+@keyframes floatPeach2 {
+  0% { transform: translate3d(0, 0, 0) scale(1) rotate(0deg); }
+  50% { transform: translate3d(-65px, -50px, 0) scale(1.12) rotate(-16deg); }
+  100% { transform: translate3d(40px, -25px, 0) scale(0.93) rotate(8deg); }
+}
+
+@keyframes floatPowderBlue1 {
+  0% { transform: translate3d(0, 0, 0) scale(1) rotate(0deg); }
+  50% { transform: translate3d(-50px, 60px, 0) scale(1.14) rotate(-14deg); }
+  100% { transform: translate3d(45px, -35px, 0) scale(0.92) rotate(10deg); }
+}
+
+@keyframes floatPowderBlue2 {
+  0% { transform: translate3d(0, 0, 0) scale(1) rotate(0deg); }
+  50% { transform: translate3d(60px, -70px, 0) scale(1.1) rotate(18deg); }
+  100% { transform: translate3d(-40px, 45px, 0) scale(0.94) rotate(-12deg); }
+}
+
+@keyframes floatPowderBlue3 {
+  0% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-60px, -45px, 0) scale(1.12); }
+  100% { transform: translate3d(35px, 50px, 0) scale(0.95); }
+}
+
+@keyframes floatRose {
+  0% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-40px, 55px, 0) scale(1.14); }
+  100% { transform: translate3d(35px, -40px, 0) scale(0.96); }
+}
+
+@keyframes floatCream {
+  0% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(60px, -45px, 0) scale(1.08); }
+  100% { transform: translate3d(-25px, -55px, 0) scale(0.96); }
+}
+
+/* ==========================================================================
+   Apple-esque White Cards: Color Motion Gradient Blobs & Mesh Gradients
+   ========================================================================== */
+.apple-mesh-card,
+.interactive-card {
+  position: relative;
+  isolation: isolate;
+  background: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  box-shadow: 
+    0 2px 8px -1px rgba(15, 23, 42, 0.03),
+    0 12px 28px -4px rgba(125, 211, 252, 0.06),
+    0 8px 20px -3px rgba(251, 146, 60, 0.03),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+              border-color 0.35s ease;
+  overflow: hidden;
+}
+
+/* Internal subtle motion gradient mesh blob featuring powder blue & warm peach */
+.apple-mesh-card::before,
+.interactive-card:not([class*="bg-gradient-to-tr"])::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -40%;
+  width: 180%;
+  height: 180%;
+  background: 
+    radial-gradient(circle at 25% 22%, rgba(186, 230, 253, 0.40) 0%, rgba(224, 242, 254, 0.18) 35%, transparent 55%),
+    radial-gradient(circle at 80% 25%, rgba(254, 215, 170, 0.30) 0%, transparent 45%),
+    radial-gradient(circle at 75% 75%, rgba(125, 211, 252, 0.32) 0%, transparent 42%),
+    radial-gradient(circle at 25% 80%, rgba(254, 205, 211, 0.18) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(224, 242, 254, 0.28) 0%, transparent 50%);
+  filter: blur(32px);
+  -webkit-filter: blur(32px);
+  opacity: 0.78;
+  pointer-events: none;
+  z-index: 0;
+  will-change: transform;
+  animation: cardMeshMotion 18s ease-in-out infinite alternate;
+  transition: opacity 0.4s ease, filter 0.4s ease;
+}
+
+/* Subtle high-end iridescent top sheen with powder blue and warm peach */
+.apple-mesh-card::after,
+.interactive-card:not([class*="bg-gradient-to-tr"])::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(125, 211, 252, 0.70) 20%, 
+    rgba(251, 146, 60, 0.42) 50%, 
+    rgba(186, 230, 253, 0.75) 80%, 
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: cardSheen 10s ease-in-out infinite alternate;
+  opacity: 0.65;
+  pointer-events: none;
+  z-index: 2;
+  transition: opacity 0.3s ease;
+}
+
+/* Card hover: silky Apple lift, glow expansion, and refined shadow */
+.apple-mesh-card:hover,
+.interactive-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 16px 36px -8px rgba(15, 23, 42, 0.08),
+    0 8px 26px -4px rgba(125, 211, 252, 0.25),
+    0 4px 14px -2px rgba(251, 146, 60, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+  border-color: rgba(125, 211, 252, 0.55);
+}
+
+.apple-mesh-card:hover::before,
+.interactive-card:not([class*="bg-gradient-to-tr"]):hover::before {
+  opacity: 1;
+  filter: blur(24px);
+}
+
+.apple-mesh-card:hover::after,
+.interactive-card:not([class*="bg-gradient-to-tr"]):hover::after {
+  opacity: 1;
+}
+
+/* Ensure all card children sit clearly above the internal mesh blob */
+.apple-mesh-card > *,
+.interactive-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Motion keyframes for internal card mesh blob */
+@keyframes cardMeshMotion {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate3d(-6%, 8%, 0) rotate(18deg) scale(1.08);
+  }
+  100% {
+    transform: translate3d(5%, -6%, 0) rotate(-12deg) scale(0.94);
+  }
+}
+
+@keyframes cardSheen {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Section translucency so ambient peach blobs shine through softly */
+.ambient-translucent {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.ambient-translucent-subtle {
+  background-color: rgba(248, 250, 252, 0.60) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Respect user accessibility settings */
+@media (prefers-reduced-motion: reduce) {
+  .apple-bg-blob,
+  .apple-mesh-card::before,
+  .interactive-card::before,
+  .apple-mesh-card::after,
+  .interactive-card::after {
+    animation: none !important;
+  }
+}
+
+/* Gradient text accents for modern white feel */
+.text-gradient-rose {
+  background: linear-gradient(135deg, #E11D48 0%, #EA580C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #B45309 0%, #D97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Soft glass effect for floating navigation */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Smooth Pulse for Live Indicators */
+@keyframes softPulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.08);
+  }
+}
+
+.animate-soft-pulse {
+  animation: softPulse 2.5s infinite ease-in-out;
+}
+
+/* AI Chat message bubble styling */
+.ai-bubble-user {
+  background-color: #0F172A;
+  color: #FFFFFF;
+  border-radius: 18px 18px 4px 18px;
+}
+
+.ai-bubble-bot {
+  background-color: #F8FAFC;
+  color: #1E293B;
+  border: 1px solid #E2E8F0;
+  border-radius: 18px 18px 18px 4px;
+}
+
+/* Range slider styling */
+input[type="range"] {
+  accent-color: #E11D48;
+}
+
+/* Mobile Safe Area Padding */
+.safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom, 0.75rem), 0.75rem);
+}
+
+/* Mobile Ergonomics & iOS auto-zoom prevention */
+@media (max-width: 640px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    font-size: 16px !important; /* Prevents iOS Safari from zooming in automatically on focus */
+  }
+
+  /* Smooth horizontal scrolling for pills */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Tactile Active States for Mobile Taps */
+button:active, a:active {
+  transform: scale(0.98);
+}
+
+/* Fullpage Article Reader Overlay & Typography */
+#article-fullpage-reader {
+  animation: readerFadeIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes readerFadeIn {
+  from {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+  }
+  to {
+    opacity: 1;
+    backdrop-filter: blur(24px);
+  }
+}
+
+#article-fullpage-reader::-webkit-scrollbar {
+  width: 8px;
+}
+#article-fullpage-reader::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.6);
+}
+#article-fullpage-reader::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+#article-fullpage-reader::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
+}
+
+/* Article Reader Typography */
+.article-reading-prose p {
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}

@@ -1,0 +1,8 @@
+# Love'N'People robots.txt
+# Comprehensive search engine directives for optimal indexing
+
+User-agent: *
+Allow: /
+
+# Sitemap Index
+Sitemap: https://www.lovenpeople.org/sitemap.xml

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Homepage -->
+  <url>
+    <loc>https://www.lovenpeople.org/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/banner.avif</image:loc>
+      <image:title>Love'N'People Community Outreach - Northeast TN and Southwest VA</image:title>
+      <image:caption>Uplifting Northeast Tennessee and Southwest Virginia Since 2012</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/horazontal-logo_.png</image:loc>
+      <image:title>Love'N'People Official Logo</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://www.lovenpeople.org/#about</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/jaz%20headshot%206_edited.avif</image:loc>
+      <image:title>Jazmin McClanahan - Founder and CEO</image:title>
+    </image:image>
+  </url>
+
+  <!-- Community Initiatives Section -->
+  <url>
+    <loc>https://www.lovenpeople.org/#initiatives</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Flagship Fundraisers & Events -->
+  <url>
+    <loc>https://www.lovenpeople.org/#fundraisers</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Smart Navigator Compass -->
+  <url>
+    <loc>https://www.lovenpeople.org/#compass</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Volunteer Lend-A-Hand -->
+  <url>
+    <loc>https://www.lovenpeople.org/#volunteer</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://www.lovenpeople.org/#contact</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Full-Page Articles & Deep Dives -->
+  <url>
+    <loc>https://www.lovenpeople.org/#article/waves-of-change-2026</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/waves_of_change_2026.png</image:loc>
+      <image:title>Waves of Change 2026 Virgin Voyages Resilient Lady Cruise</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/waves-of-change-2027</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/waves_of_change_2027.jpg</image:loc>
+      <image:title>Waves of Change 2027 Mahjong at Sea Royal Caribbean</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/heart-heritage-market-2026</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/heart_heritage_market_2026.png</image:loc>
+      <image:title>Heart and Heritage Market 2026 HP King Building Bristol TN</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/christmas-angel-initiative</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/christmas_angel_2025.png</image:loc>
+      <image:title>Annual Christmas Angel Initiative Love'N'People</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/community-pilot-2026</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/community_pilot_2026.png</image:loc>
+      <image:title>Love'N'People 2026 Financial Relief and Advocacy Pilot</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/hurricane-helene-relief</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/resources_story.jpg</image:loc>
+      <image:title>Hurricane Helene Disaster Recovery in Northeast TN and Southwest VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/over-the-edge-bms</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/over_the_edge_bms_1.jpeg</image:loc>
+      <image:title>Going Over the Edge at Bristol Motor Speedway for YWCA and Children's Charities</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/santa-pal-award</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/santa_pal_award.png</image:loc>
+      <image:title>Peg Brown Spirit of Santa Pal Award Honoring Love'N'People</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/healing-hands-hygiene</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/get_help_support_2.jpg</image:loc>
+      <image:title>Healing Hands Hygiene Drive for Southwest Virginia Children</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/refinery-teen-center</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/get_help_support_3.jpg</image:loc>
+      <image:title>The Refinery Teen Center Youth Mentorship</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/tech-girls-ymca</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/get_help_support_1.jpg</image:loc>
+      <image:title>Tech Girls YMCA STEM and Leadership Activities</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/boys-girls-clubs-bristol</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://www.lovenpeople.org/images/softball_santa_pal_team.jpeg</image:loc>
+      <image:title>Boys and Girls Clubs of Bristol TN and VA Partnership</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/dv-survivor-housing</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/womens-health-living-essentials</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/soldiers-child-retreat</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lovenpeople.org/#article/school-break-meals</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+</urlset>
