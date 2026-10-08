@@ -9,6 +9,11 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
+      <image:loc>https://www.lovenpeople.org/images/social_share.jpg</image:loc>
+      <image:title>Love'N'People Social Share and Community Mission Card</image:title>
+      <image:caption>501(c)(3) Nonprofit - To Inspire, Heal, and Support</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://www.lovenpeople.org/images/banner.avif</image:loc>
       <image:title>Love'N'People Community Outreach - Northeast TN and Southwest VA</image:title>
       <image:caption>Uplifting Northeast Tennessee and Southwest Virginia Since 2012</image:caption>
